@@ -2,10 +2,12 @@ import React from "react";
 
 import "./App.css";
 
+import TeccList from "./components/TechList";
+
 import profile from "./assets/pp.jpeg";
 
 function App() {
-  return <img width="200" src={profile} />;
+  return <TeccList />;
 }
 
 export default App;
